@@ -74,10 +74,10 @@ void lvgl_demo(void)
     // 运行你自己的UI
     // setup_ui(&guider_ui);
     // test_widget();  // 备用测试UI
-	// lv_demo_music();
+	lv_demo_music();
 	// lv_demo_widgets();
 	// lv_demo_keypad_encoder() ;
-	lv_demo_stress();
+	// lv_demo_stress();
     while (1)
     {
         lv_timer_handler();
